@@ -16,7 +16,8 @@ namespace MyReadingList.Services
 
         }
 
-        public static List<Book> GetAll() => Books;  //so this basically get the data out of memory
+        public static List<Book> GetAll() => Books;  //so this basically get the data out of memory and the GetALL will basically call and perform the logic up above 
+        public static Book? Get(int id) => Books.FirstOrDefault(b => b.Id == id);
     }
 
 }

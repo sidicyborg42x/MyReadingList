@@ -1,6 +1,12 @@
-@MyReadingList_HostAddress = http://localhost:5132
+@MyReadingList_HostAddress = https://localhost:7204
 
-GET {{MyReadingList_HostAddress}}/weatherforecast/
-Accept: application/json
+
+GET {{MyReadingList_HostAddress}}/api/book
+
+###
+
+
+@id=1
+GET {{MyReadingList_HostAddress}}/api/book/{{id}}
 
 ###
