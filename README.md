@@ -6,10 +6,10 @@ I am building this project to learn modern **.NET Development** by following a "
 
 ## 🚀 Tech Stack
 
-* **Framework:** .NET 8
+* **Framework:** .NET 10.0
 * **Backend:** ASP.NET Core Web API
-* **Frontend:** Blazor WebAssembly
-* **Database:** SQLite (Local Development)
+* **Frontend:** to be decided
+* **Database:** SQL Server
 * **ORM:** Entity Framework Core
 
 ## 🗺️ Project Roadmap (Vertical Slices)
