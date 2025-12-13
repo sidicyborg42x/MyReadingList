@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using MyReadingList;
 
-namespace MyReadingList.Controllers
+namespace JobApplicationTracker.Controllers
 {
     [ApiController]
     [Route("[controller]")]
