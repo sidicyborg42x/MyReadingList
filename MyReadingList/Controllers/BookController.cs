@@ -23,6 +23,15 @@ namespace MyReadingList.Controllers
                 return NotFound();
             return book;
         }
+
+        [HttpPost]
+        public IActionResult Create(Book book)
+        {
+            //if it worked 201 status code 
+            //didnt work 400 status code
+            BookService.Add(book);
+            return CreatedAtAction(nameof(Get), new { id = book.Id }, book);
+        }
     }
 
 }

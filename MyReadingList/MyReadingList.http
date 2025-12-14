@@ -10,3 +10,13 @@ GET {{MyReadingList_HostAddress}}/api/book
 GET {{MyReadingList_HostAddress}}/api/book/{{id}}
 
 ###
+
+POST {{MyReadingList_HostAddress}}/api/book
+Content-Type: application/json
+
+{
+  "NameOfBook" : "The Great Gatsby",
+  "HaveRead" : True
+}
+
+###
